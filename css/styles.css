@@ -88,3 +88,28 @@ h1 {
 .haarfarve {
     margin-top: 5%;
 }
+                /*Hårfarve slut*/
+
+                /*Avatar indstillinger*/
+
+.indstillinger-dreng {
+    width: 50%;
+    height: auto;
+    float: left;
+}
+.vpil1 {
+    float: left;
+    width: 10%;
+}
+.vpil2 {
+    float: left;
+    width: 10%;
+}
+.hpil1 {
+    float: right;
+    width: 10%;
+}
+.hpil2 {
+    float: right;
+    width: 10%;
+}
