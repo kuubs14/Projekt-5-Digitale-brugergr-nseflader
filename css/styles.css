@@ -11,7 +11,7 @@ body {
     display: block;
     border: 1px solid white;
     border-radius: 50%;
-    margin-top: 45%;
+    margin-top: 30%;
 }
 
 .logo {
@@ -19,5 +19,51 @@ body {
     margin-right: auto;
     width: 75%;
     display: block;
-    margin-top: 5%;
+    margin-top: 10%;
+}
+
+                /*Topbar*/
+.topBar {
+    height: 12.5vh;
+    width: 100%;
+    border-bottom: solid;
+    border-bottom-color: #F0F8FF;
+    border-bottom-width: thick; 
+}
+.tilbageKnap {
+    width: 14%;
+    height: auto;
+    margin-left: 5%;
+}
+.logoTop {
+    width: 45%;
+    height: auto;
+    margin-left: 8%;
+}
+.indstillinger {
+    width: 15%;
+    height: auto;
+    margin-left: 8%;
+}
+                /*Topbar slut*/
+
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    color: #F0F8FF;
+    font-weight: 900;
+    font-size: 3.5em;
+    text-align: center;
+    margin-top: 15%;
+    margin-bottom: 10%;
+}
+.avatarDreng {
+    width: 40%;
+    height: auto;
+    margin-left: 5%;
+}
+.avatarPige {
+    width: 40%;
+    height: auto;
+    margin-left: 10%;
 }
