@@ -48,6 +48,8 @@ body {
                 /*Topbar slut*/
 
 
+                /*Valg af avatar*/
+
 h1 {
     font-family: 'Montserrat', sans-serif;
     color: #F0F8FF;
@@ -66,4 +68,23 @@ h1 {
     width: 40%;
     height: auto;
     margin-left: 10%;
+}
+                /*Valg af avatar slut*/
+
+                /*Hårfave*/
+.sort {
+    width: 15%;
+    margin-left: 19%;
+}
+.roed {
+    width: 15%;
+}
+.brun {
+    width: 15%;
+}
+.lys {
+    width: 15%;
+}
+.haarfarve {
+    margin-top: 5%;
 }
