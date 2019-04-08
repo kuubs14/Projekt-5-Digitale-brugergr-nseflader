@@ -71,45 +71,53 @@ h1 {
 }
                 /*Valg af avatar slut*/
 
+
+
+                /*Hårstil*/
+
+.indstillinger-dreng-stil {
+    width: 50%;
+    height: auto;
+    margin-left: 5%;
+}
+.vpil {
+    float: left;
+    width: 10%;
+    margin-top: 15%;
+    margin-left: 10%;
+}
+.hpil {
+    float: right;
+    width: 10%;
+    margin-top: 15%;
+    margin-right: 10%;
+}
+                /*Hårstil slut/*
+
                 /*Hårfave*/
 .sort {
-    width: 15%;
-    margin-left: 19%;
+    width: 10%;
+    margin-left: 29%;
 }
 .roed {
-    width: 15%;
+    width: 10%;
 }
 .brun {
-    width: 15%;
+    width: 10%;
 }
 .lys {
-    width: 15%;
+    width: 10%;
 }
 .haarfarve {
     margin-top: 5%;
 }
-                /*Hårfarve slut*/
-
-                /*Avatar indstillinger*/
-
-.indstillinger-dreng {
+.indstillinger-dreng-haar {
     width: 50%;
     height: auto;
-    float: left;
+    margin-left: 25%;
 }
-.vpil1 {
-    float: left;
-    width: 10%;
+.haarfarve-tekst {
+    margin-bottom: 5%;
 }
-.vpil2 {
-    float: left;
-    width: 10%;
-}
-.hpil1 {
-    float: right;
-    width: 10%;
-}
-.hpil2 {
-    float: right;
-    width: 10%;
-}
+                /*Hårfarve slut*/
+                
