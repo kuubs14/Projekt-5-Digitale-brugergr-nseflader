@@ -6,7 +6,6 @@ body {
     background-color: #69a1ac;
     width: 300px;
     height: 300px;
-    color: orangered;
     margin: 0 auto;
     display: block;
     border: 1px solid white;
@@ -116,8 +115,23 @@ h1 {
     height: auto;
     margin-left: 25%;
 }
-.haarfarve-tekst {
-    margin-bottom: 5%;
-}
+
                 /*Hårfarve slut*/
                 
+                /*Videre knap*/
+.videreKnap {
+    background-color: #69a1ac;
+    width: 16%;
+    height: 12vh;
+    margin: 0 auto;
+    display: block;
+    border: 1px solid;
+    border-radius: 50%;
+    float: right;
+    margin-top: 10%;
+    margin-right: 2%;
+}
+.videre {
+    width: 75%;
+}
+                /*Videre knap slut*/
