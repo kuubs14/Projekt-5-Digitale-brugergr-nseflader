@@ -38,9 +38,9 @@ document.getElementById("btnHair").addEventListener("click", function(){
     currentIndex--;
     
     if(imageList[0] == imageList[0]){
-        location.replace("https://www.w3schools.com")
+        location.replace("../html/gendermanhaar.html")
     } else if(imageList[1] == imageList[1]) {
-        location.replace("https://www.w3schools.com/js/tryit.asp?filename=tryjs_ifthen")
+        location.replace("http://www.tv2.dk")
     }
     
 })
