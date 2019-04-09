@@ -1,4 +1,6 @@
 
+//Haarstil af dreng:
+
 let imageList = [];
 imageList[0] = "../imgs/dreng/avatar-dreng-uden-cirkel.png";
 imageList[1] = "../imgs/dreng/avatar-dreng-1.png";
@@ -49,3 +51,5 @@ document.getElementById("btnHair").addEventListener("click", function(){
     }
     
 })
+
+//Haarstil af pige:
