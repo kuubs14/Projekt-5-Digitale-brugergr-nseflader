@@ -35,12 +35,17 @@ document.getElementById("btnPrev").addEventListener("click", function(){
 })
 
 document.getElementById("btnHair").addEventListener("click", function(){
-    currentIndex--;
     
-    if(imageList[0] == imageList[0]){
+    if(currentIndex == 0){
         location.replace("../html/gendermanhaar.html")
-    } else if(imageList[1] == imageList[1]) {
-        location.replace("http://www.tv2.dk")
+    } else if(currentIndex == 1){
+        location.replace("../html/gendermanhaar-1.html")
+    } else if(currentIndex == 2){
+        location.replace("../html/gendermanhaar-2.html")
+    } else if(currentIndex == 3){
+        location.replace("../html/gendermanhaar-3.html")
+    } else if(currentIndex == 4){
+        location.replace("../html/gendermanhaar-4.html")
     }
     
 })
