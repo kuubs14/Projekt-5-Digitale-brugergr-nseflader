@@ -66,7 +66,7 @@ imageListPige[3] = "../imgs/pige/avatar-pige-4.png";
 imageListPige[4] = "../imgs/pige/avatar-pige-5.png";
 
 let currentIndexGirl = 0;
-let currentImageNumberGirl = currentIndex + 1;
+let currentImageNumberGirl = currentIndexGirl + 1;
 
 
 document.getElementById("btnNextGirl").addEventListener("click", function(){
