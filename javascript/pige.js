@@ -34,3 +34,21 @@ document.getElementById("btnPrevGirl").addEventListener("click", function(){
     
     document.getElementById("sliderImageGirl").src = imageListPige[currentIndexGirl];
 })
+
+//Haarfarve af pige:
+
+document.getElementById("btnHair").addEventListener("click", function(){
+    
+    if(currentIndexGirl == 0){
+        location.replace("../html/genderwomanhaar.html")
+    } else if(currentIndexGirl == 1){
+        location.replace("../html/genderwomanhaar-2.html")
+    } else if(currentIndexGirl == 2){
+        location.replace("../html/genderwomanhaar-3.html")
+    } else if(currentIndexGirl == 3){
+        location.replace("../html/genderwomanhaar-4.html")
+    } else if(currentIndexGirl == 4){
+        location.replace("../html/genderwomanhaar-5.html")
+    }
+    
+})
