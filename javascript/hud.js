@@ -1,7 +1,7 @@
 let imageList = [];
 imageList[0] = "../imgs/dreng/avatar-dreng-uden-cirkel.png";
 imageList[1] = "../imgs/dreng/avatar-dreng-uden-cirkel-brunhud.png";
-imageList[2] = "../imgs/dreng/avatar-dreng-uden-cirkel-sort.png";
+imageList[2] = "../imgs/dreng/avatar-dreng-uden-cirkel-sorthud.png";
 
 let currentIndex = 0;
 let currentImageNumber = currentIndex + 1;
@@ -29,4 +29,15 @@ document.getElementById("btnPrev").addEventListener("click", function(){
     let currentImageNumber = currentIndex + 1;
     
     document.getElementById("sliderImage").src = imageList[currentIndex];
+})
+
+document.getElementById("btnHair").addEventListener("click", function(){
+    
+    if(currentIndex == 0){
+        location.replace("../html/gendermanhaar.html")
+    } else if(currentIndex == 1){
+        location.replace("../html/gendermanhaar-1.html")
+    } else if(currentIndex == 2){
+        location.replace("../html/gendermanhaar-2.html")
+    } 
 })
