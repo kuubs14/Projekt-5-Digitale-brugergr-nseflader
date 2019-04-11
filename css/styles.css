@@ -147,3 +147,24 @@ h1 {
     width: 75%;
 }
                 /*Videre knap slut*/
+
+                /*Navneform*/
+input {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+    text-align: center;
+    width: 60%;
+    padding: 4%;
+    border: 0.1px solid #000000;
+    border-radius: 8px;
+    box-sizing: border-box;
+    background-color: #F0F8FF;
+    margin-left: 20%;
+}
+::placeholder {
+    font-weight: 400;
+    font-size: 20px;
+}
+
+                /*Navneform slut*/
