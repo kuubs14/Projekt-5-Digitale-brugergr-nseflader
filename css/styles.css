@@ -241,3 +241,52 @@ input {
     margin-right: 7%;
     margin-top: 12%;
 }
+                /*Vælg tøj slut*/
+
+                /*Indstillinger*/
+.indstillingerOff {
+    visibility: hidden;
+    width: 15%;
+    height: auto;
+    margin-left: 8%;
+}
+.speaker {
+    width: 30%;
+    float: left;
+    margin-left: 5%;
+    margin-top: 5%;
+}
+.speaker-btn {
+    float: left;
+    width: 50%;
+    padding: 2%;
+    margin-left: 7.5%;
+    margin-top: 15%;
+    font-size: 3em;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    border: 1px solid;
+    border-radius: 20px;
+    background-color: #F0F8FF;
+}
+.bell {
+    width: 30%;
+    float: left;
+    clear: left;
+    margin-left: 5%;
+    margin-top: 5%;
+}
+.bell-btn {
+     float: left;
+    width: 50%;
+    padding: 2%;
+    margin-left: 7.5%;
+    margin-top: 15%;
+    font-size: 3em;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    border: 1px solid;
+    border-radius: 20px;
+    background-color: #F0F8FF;
+}
+                /*Indstillinger slut*/
