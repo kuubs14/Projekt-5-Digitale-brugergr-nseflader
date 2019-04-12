@@ -16,10 +16,10 @@
 </header>
 
 <body>
-  <img class="speaker" src="../imgs/speaker.png" alt="Lyd">
-  <button class="speaker-btn">Lyd</button>
-  <img class="bell" src="../imgs/notifikation.png" alt="Notifikationer">
-  <button class="bell-btn">Notifikation</button>
+  <img onclick="skiftLyd()" class="speaker" id="sliderImage" src="../imgs/speaker.png" alt="Lyd">
+  <button onclick="skiftLyd()" class="speaker-btn">Lyd</button>
+  <img class="bell" id="sliderImageBell" onclick="skiftNotifikation()" src="../imgs/notifikation.png" alt="Notifikationer">
+  <button class="bell-btn" onclick="skiftNotifikation()">Notifikation</button>
    
     <script src="../javascript/main.js"></script>
     

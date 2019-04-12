@@ -1,6 +1,9 @@
 
 //Haarstil af dreng:
 
+
+
+
 let imageList = [];
 imageList[0] = "../imgs/dreng/avatar-dreng-uden-cirkel.png";
 imageList[1] = "../imgs/dreng/avatar-dreng-1.png";
@@ -35,7 +38,13 @@ function skiftDrengVenstre() {
     document.getElementById("sliderImage").src = imageList[currentIndex];
 }
 
+
+
+
 //Haarfarve af dreng:
+
+
+
 
 function drengHaarfarve() {
     if(currentIndex == 0){
@@ -51,7 +60,13 @@ function drengHaarfarve() {
     }
 }
 
+
+
+
 //Haarstil af pige:
+
+
+
 
 let imageListPige = [];
 imageListPige[0] = "../imgs/pige/avatar-pige.png";
@@ -87,7 +102,13 @@ function skiftPigeVenstre() {
     document.getElementById("sliderImageGirl").src = imageListPige[currentIndexGirl];
 }
 
+
+
+
 //Haarfarve af pige:
+
+
+
 
 function pigeHaarfarve() {
     if(currentIndexGirl == 0){
@@ -103,13 +124,25 @@ function pigeHaarfarve() {
     }
 }
 
+
+
+
 //Tilbage knap
+
+
+
 
 function gåTilbage() {
     window.history.back();
 }
 
+
+
+
 //Hudfarve af dreng: 
+
+
+
 
 let imageListDrengHud = [];
 imageListDrengHud[0] = "../imgs/dreng/avatar-dreng-uden-cirkel.png";
@@ -153,4 +186,50 @@ function drengHaarStil(){
     } else if(currentIndexDrengH == 2){
         location.replace("../html/gendermanstill-2.html")
     } 
+}
+
+
+
+
+//Indstillinger
+
+
+
+
+let imageListIndstillingerLyd = [];
+imageListIndstillingerLyd[0] = "../imgs/speaker.png";
+imageListIndstillingerLyd[1] = "../imgs/højtaler-off.png";
+
+let currentIndexLyd = 0;
+let currentImageNumberLyd = currentIndexLyd + 1;
+
+function skiftLyd() {
+    currentIndexLyd++;
+    
+    if(currentIndexLyd >= imageListIndstillingerLyd.length) {
+        currentIndexLyd = 0;
+    }
+    
+    let currentImageNumberLyd = currentIndexLyd + 1;
+    
+    document.getElementById("sliderImage").src= imageListIndstillingerLyd[currentIndexLyd];
+}
+
+let imageListIndstillingerNotifikation = [];
+imageListIndstillingerNotifikation[0] = "../imgs/notifikation.png";
+imageListIndstillingerNotifikation[1] = "../imgs/notifikation-off.png";
+
+let currentIndexNotifikation = 0;
+let currentImageNumberNotifikation = currentIndexNotifikation + 1;
+
+function skiftNotifikation() {
+    currentIndexNotifikation++;
+    
+    if(currentIndexNotifikation >= imageListIndstillingerNotifikation.length) {
+        currentIndexNotifikation = 0;
+    }
+    
+    let currentImageNumberNotifikation = currentIndexNotifikation + 1;
+    
+    document.getElementById("sliderImageBell").src= imageListIndstillingerNotifikation[currentIndexNotifikation];
 }
