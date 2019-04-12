@@ -108,3 +108,49 @@ function pigeHaarfarve() {
 function gåTilbage() {
     window.history.back();
 }
+
+//Hudfarve af dreng: 
+
+let imageListDrengHud = [];
+imageListDrengHud[0] = "../imgs/dreng/avatar-dreng-uden-cirkel.png";
+imageListDrengHud[1] = "../imgs/dreng/avatar-dreng-uden-cirkel-brunhud.png";
+imageListDrengHud[2] = "../imgs/dreng/avatar-dreng-uden-cirkel-sorthud.png";
+
+let currentIndexDrengH = 0;
+let currentImageNumberDrengH = currentIndexDrengH + 1;
+
+
+function skiftHudDrengH(){
+    currentIndexDrengH++;
+    
+    if(currentIndexDrengH >= imageListDrengHud.length){
+        currentIndexDrengH = 0;
+    }
+    
+    let currentImageNumberDrengH = currentIndexDrengH + 1;
+    
+    document.getElementById("sliderImage").src = imageListDrengHud[currentIndexDrengH];    
+}
+
+function skiftHudDrengV(){
+    currentIndexDrengH--;
+    
+    if(currentIndexDrengH <= - 1){
+        currentIndexDrengH = imageListDrengHud.length - 1;
+    }
+    
+    let currentImageNumberDrengH = currentIndexDrengH + 1;
+    
+    document.getElementById("sliderImage").src = imageListDrengHud[currentIndexDrengH];
+}
+
+function drengHaarStil(){
+    
+    if(currentIndexDrengH == 0){
+        location.replace("../html/gendermanstil.html")
+    } else if(currentIndexDrengH == 1){
+        location.replace("../html/gendermanstil-1.html")
+    } else if(currentIndexDrengH == 2){
+        location.replace("../html/gendermanstill-2.html")
+    } 
+}
