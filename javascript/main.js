@@ -102,3 +102,9 @@ function pigeHaarfarve() {
         location.replace("../html/genderwomanhaar-5.html")
     }
 }
+
+//Tilbage knap
+
+function gåTilbage() {
+    window.history.back();
+}
