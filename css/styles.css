@@ -178,3 +178,66 @@ input {
 }
 
                 /*Navneform slut*/
+
+                /*Interaktion med storm - vejret*/
+.stormFigur {
+    height: 60vh;
+    float: right; 
+    clear: right;
+    margin-top: 35%;
+    margin-right: 5%;
+}
+.avatarFigur {
+    height: 60vh;
+    float: left;
+    clear: left;
+    margin-left: 5%;
+}
+.avatarKnap {
+    margin-top: 35%;
+    height: 60vh;
+}
+
+                /*Interaktion med storm - vejret slut*/
+
+                /*Vælg tøj*/
+.videreKnapClothes {
+    background-color: #69a1ac;
+    width: 16%;
+    height: 12vh;
+    display: block;
+    border: 1px solid;
+    border-radius: 50%;
+    margin: 0 auto;
+    margin-top: 30%;
+}
+.avatarClothes {
+    margin-left: 28%;
+    height: 50vh;
+    margin-right: 28%;
+}
+.avatarFigurClothes {
+    height: 70vh;
+}
+.clothesElementLeft {
+    float: left;
+    clear: left;
+    margin-left: 7%;
+    margin-top: 12%;
+}
+.clothesElementLeft img {
+    margin-bottom: 85%;
+    margin-left: 7%;
+    margin-top: 12%;
+}
+.clothesElementRight {
+    float: right;
+    clear: right;
+    margin-right: 7%;
+    margin-top: 12%;
+}
+.clothesElementRight img {
+    margin-bottom: 85%;
+    margin-right: 7%;
+    margin-top: 12%;
+}
