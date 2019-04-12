@@ -18,15 +18,16 @@
 
 <body>
     <h1>Vælg Hårstil</h1>
-     <img class="vpil" id="btnPrev" src="../imgs/pil.png" alt="Valg af indstillinger">
+     <img onclick="skiftDrengVenstre()" class="vpil" id="btnPrev" src="../imgs/pil.png" alt="Valg af indstillinger">
 
     <img class="indstillinger-dreng-stil" id="sliderImage" src="../imgs/dreng/avatar-dreng-uden-cirkel.png" alt="Avatar dreng konfigurationer">
     
-    <img class="hpil" id="btnNext" src="../imgs/pil2.png" alt="Valg af indstillinger">
+    <img onclick="skiftDrengHøjre()" class="hpil" id="btnNext" src="../imgs/pil2.png" alt="Valg af indstillinger">
     
-     <button class="videreKnap">
+     <button onclick="drengHaarfarve()" class="videreKnap">
         <img class="videre" id="btnHair" src="../imgs/spilpil.png" alt="spilpil">
     </button> 
+    
     <script src="../javascript/main.js"></script>
 </body>
 
