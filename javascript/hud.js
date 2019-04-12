@@ -34,10 +34,10 @@ document.getElementById("btnPrev").addEventListener("click", function(){
 document.getElementById("btnHair").addEventListener("click", function(){
     
     if(currentIndex == 0){
-        location.replace("../html/gendermanhaar.html")
+        location.replace("../html/gendermanstil.html")
     } else if(currentIndex == 1){
-        location.replace("../html/gendermanhaar-1.html")
+        location.replace("../html/gendermanstil-1.html")
     } else if(currentIndex == 2){
-        location.replace("../html/gendermanhaar-2.html")
+        location.replace("../html/gendermanstill-2.html")
     } 
 })
