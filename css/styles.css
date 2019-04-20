@@ -304,6 +304,23 @@ input {
 }
                 /*Indstillinger slut*/
 
+                /*Redigering af bruger*/
+.red-bruger-pige {
+    float: left;
+    width: 35%;
+    margin-left: 32%;
+    margin-top: -5%;
+}
+.red-bruger-dreng {
+    float: left;
+    clear: left;
+    width: 35%;
+    margin-left: 32%;
+}
+
+
+                /*Redigering af bruger slut*/
+
                 /*Belønning start*/
 
 .cirkel1{
