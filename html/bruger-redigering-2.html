@@ -16,14 +16,15 @@
 </header>
 
 <body>
-    <img onclick="skiftLyd()" class="speaker" id="sliderImage" src="../imgs/speaker.png" alt="Lyd">
-    <button onclick="skiftLyd()" class="speaker-btn">Lyd</button>
-    <img class="bell" id="sliderImageBell" onclick="skiftNotifikation()" src="../imgs/notifikation.png" alt="Notifikationer">
-    <button class="bell-btn" onclick="skiftNotifikation()">Notifikation</button>
-    <form action="bruger-redigering.html">
-        <button class="bruger-btn" type="submit">Bruger indstillinger</button>
+    <h1>Redigér navn</h1>
+     <form action="">
+        <label for="navn"></label>
+        <input type="text" id="navn" name="Navn" placeholder="Redigér navn..." required>
     </form>
-   
+    <img class="submit" src="../imgs/check-tegn.png" alt="Submit">
+    <form action="slet-bruger.html">
+        <button class="slet-bruger" type="submit">Slet bruger</button>
+    </form>
     <script src="../javascript/main.js"></script>
     
 </body>

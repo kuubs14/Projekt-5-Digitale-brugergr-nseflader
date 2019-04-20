@@ -317,6 +317,42 @@ input {
     width: 35%;
     margin-left: 32%;
 }
+.rediger-navn {
+    float: left;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+    text-align: center;
+    width: 60%;
+    padding: 4%;
+    border: 0.1px solid #000000;
+    border-radius: 8px;
+    box-sizing: border-box;
+    background-color: #F0F8FF;
+    margin-left: 20%;
+}
+.submit {
+    margin-left: 42%;
+    margin-top: 2%;
+    width: 18%;
+}
+.slet-bruger {
+    float: left;
+    width: 60%;
+    padding: 4%;
+    margin-left: 20%;
+    margin-top: 15%;
+    font-size: 3em;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    border: 1px solid;
+    border-radius: 20px;
+    background-color: #f45145;
+}
+.red-x {
+    width: 35%;
+    margin-left: 32%;
+}
 
 
                 /*Redigering af bruger slut*/
