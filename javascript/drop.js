@@ -39,3 +39,8 @@ class Drop {
 		requestAnimationFrame(makeItRain);
 	}
 }
+
+//Volume af lyd
+
+var audio = document.getElementById("myaudio");
+  audio.volume = 0.8;
