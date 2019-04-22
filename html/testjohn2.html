@@ -19,11 +19,14 @@
 </header>
 
 <body>
-    <audio autoplay>
+    <audio autoplay >
         <source src="../lyd/storm%20start%20regn.mp3" type="audio/mpeg">
     </audio>
     <audio autoplay loop id="myaudio">
         <source src="../lyd/Rain%20Sounds%20%20%2015%20seconds%20soundtrack.mp3" type="audio/mpeg">
+    </audio>
+    <audio onloadeddata="var audioPlayer = this; setTimeout(function() { audioPlayer.play(); }, 8000)">
+        <source src="../lyd/krafthelvede%20jeg%20fik%20stress.mp3" type="audio/mpeg">
     </audio>
     
     <img class="stormFigur" src="../imgs/storm-avatar-fuld.png" alt="hele storm">
