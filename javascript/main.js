@@ -233,3 +233,27 @@ function skiftNotifikation() {
     
     document.getElementById("sliderImageBell").src= imageListIndstillingerNotifikation[currentIndexNotifikation];
 }
+
+
+
+// Clothes selection
+
+
+ function testSolbrille() {
+        document.getElementById("solbrille").className = 'solbrille1';
+    }        
+function testSolbrille1() {
+        document.getElementById("solbrille").className = 'solbrille2';
+    }
+function testHue() {
+        document.getElementById("hue").className = 'hue1';
+    }   
+function testHue1() {
+        document.getElementById("hue").className = 'hue2';
+    }  
+function testJakke() {
+        document.getElementById("jakke").className = 'jakke1';
+    }    
+function testJakke1() {
+        document.getElementById("jakke").className = 'jakke2';
+    }
