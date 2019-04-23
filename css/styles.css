@@ -373,6 +373,12 @@ input {
     margin: 0 auto;
 }
 
+.cirkel img{
+    margin: auto;
+    display: block;
+    width: 400px;
+}
+
 .wrapper{
     margin: auto;
     width: 570px;
