@@ -228,6 +228,7 @@ input {
     margin-top: 12%;
     height: 75px;
     width: 150px;
+    position: relative;
 }
 .clothesElementLeft img {
     margin-bottom: 85%;
