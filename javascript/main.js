@@ -150,7 +150,6 @@ imageListDrengHud[1] = "../imgs/dreng/avatar-dreng-uden-cirkel-brunhud.png";
 imageListDrengHud[2] = "../imgs/dreng/avatar-dreng-uden-cirkel-sorthud.png";
 
 let currentIndexDrengH = 0;
-let currentImageNumberDrengH = currentIndexDrengH + 1;
 
 
 function skiftHudDrengH(){
@@ -159,8 +158,6 @@ function skiftHudDrengH(){
     if(currentIndexDrengH >= imageListDrengHud.length){
         currentIndexDrengH = 0;
     }
-    
-    let currentImageNumberDrengH = currentIndexDrengH + 1;
     
     document.getElementById("sliderImage").src = imageListDrengHud[currentIndexDrengH];    
 }
@@ -171,8 +168,6 @@ function skiftHudDrengV(){
     if(currentIndexDrengH <= - 1){
         currentIndexDrengH = imageListDrengHud.length - 1;
     }
-    
-    let currentImageNumberDrengH = currentIndexDrengH + 1;
     
     document.getElementById("sliderImage").src = imageListDrengHud[currentIndexDrengH];
 }
