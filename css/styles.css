@@ -196,6 +196,8 @@ input {
 .avatarKnap {
     margin-top: 35%;
     height: 60vh;
+    background-color: #191847;
+    border: none;
 }
 
                 /*Interaktion med storm - vejret slut*/
