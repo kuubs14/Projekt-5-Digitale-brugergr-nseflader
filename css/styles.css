@@ -228,6 +228,7 @@ input {
     margin-top: 12%;
     height: 75px;
     width: 150px;
+    position: relative;
 }
 .clothesElementLeft img {
     margin-bottom: 85%;
@@ -247,6 +248,164 @@ input {
     margin-right: 7%;
     margin-top: 12%;
 }
+        @keyframes brille {
+            0% {margin-left: -100%; margin-top: 19%; z-index: 2;}
+            50% {margin-left: 60%; margin-top: 19%; z-index: 2;}
+            100% {margin-left: 60%; margin-top: 19%; z-index: 2;}
+        }
+        .solbrille1 {
+            animation-name: brille;
+            animation-duration: 3s;
+            animation-timing-function: ease-out;
+            z-index: 2;
+            animation-fill-mode: forwards;
+        }
+        @keyframes brille1 {
+            0% {margin-left: -100%; margin-top: 19%; z-index: 2;}
+            50% {margin-left: 60%; margin-top: 19%; z-index: 2;}
+            100% {margin-left: 60%; margin-top: 19%; z-index: 2;}
+        }
+        .solbrille2 {
+            animation-name: brille1;
+            animation-duration: 1.5s;
+            animation-timing-function: ease-out;
+            z-index: 2;
+            animation-fill-mode: backwards;
+            animation-direction: reverse;
+            animation-delay: -1s;
+        }
+        #solbrille {
+            position: absolute;
+            margin-left: -100%;
+            margin-top: 19%;
+        }
+        @keyframes winter-hat {
+            0% {margin-left: -74%; margin-top: 158.5%; z-index: 2;}
+            50% {margin-left: 85%; margin-top: -60%; z-index: 2; transform: scale(3,3;)}
+            100% {margin-left: 85%; margin-top: -60%; z-index: 2; transform: scale(3,3);}
+        }
+        .hue1 {
+            animation-name: winter-hat;
+            animation-duration: 3s;
+            animation-timing-function: ease-out;
+            z-index: 2;
+            animation-fill-mode: forwards;
+        }
+        @keyframes winter-hat1 {
+            0% {margin-left: -74%; margin-top: 158.5%; z-index: 2;}
+            50% {margin-left: 85%; margin-top: -60%; z-index: 2; transform: scale(3,3);}
+            100% {margin-left: 85%; margin-top: -60%; z-index: 2; transform: scale(5,3);}
+        }
+        .hue2 {
+            animation-name: winter-hat1;
+            animation-duration: 1.5s;
+            animation-timing-function: ease-out;
+            z-index: 2;
+            animation-fill-mode: backwards;
+            animation-direction: reverse;
+            animation-delay: -1s;
+        }
+        #hue {
+            position: absolute;
+            margin-left: -74%;
+            margin-top: 158.5%;
+        }
+        @keyframes jakke {
+            0% {margin-left: -100%; margin-top: 305%; z-index: 2;}
+            50% {margin-left: 60%; margin-top: 150%; z-index: 2;transform: scale(4,4);}
+            100% {margin-left: 60%; margin-top: 150%; z-index: 2; transform: scale(4,4);}
+        }
+        .jakke1 {
+            animation-name: jakke;
+            animation-duration: 3s;
+            animation-timing-function: ease-out;
+            z-index: 2;
+            animation-fill-mode: forwards;
+        }
+        @keyframes jakke1 {
+            0% {margin-left: -100%; margin-top: 305%; z-index: 2;}
+            50% {margin-left: 60%; margin-top: 150%; z-index: 2;transform: scale(4,4);}
+            100% {margin-left: 60%; margin-top: 150%; z-index: 2; transform: scale(4,4);}
+        }
+        .jakke2 {
+            animation-name: jakke1;
+            animation-duration: 1.5s;
+            animation-timing-function: ease-out;
+            z-index: 2;
+            animation-fill-mode: backwards;
+            animation-direction: reverse;
+            animation-delay: -1s;
+        }
+        #jakke {
+            position: absolute;
+            margin-left: -100%;
+            margin-top: 305%;    
+        }
+        .brilleKnap1 {
+            width: 20%;
+            position: absolute;
+            float: left;
+            clear: left;
+            margin-left: 8%;
+            margin-top: 12%;
+            z-index: 4;
+            background-color: transparent;
+        }
+        .brilleKnap2 {
+            width: 20%;
+            height: 4%;
+            position: absolute;
+            float: left;
+            clear: left;
+            margin-left: 39%;
+            margin-top: 13%;
+            z-index: 4;
+            background-color: transparent;
+            border: none;
+        }
+        .hueKnap2 {
+            width: 20%;
+            height: 5%;
+            position: absolute;
+            float: left;
+            clear: left;
+            margin-left: 39%;
+            margin-top: 5%;
+            z-index: 5;
+            background-color: transparent;
+            border: none;
+        }
+        .hueKnap1 {
+            width: 20%;
+            position: absolute;
+            float: left;
+            clear: left;
+            margin-left: 8%;
+            margin-top: 41%;
+            z-index: 4;
+            background-color: transparent;
+        }
+        .jakkeKnap1 {
+            width: 20%;
+            position: absolute;
+            float: left;
+            clear: left;
+            margin-left: 8%;
+            margin-top: 70%;
+            z-index: 4;
+            background-color: transparent;
+        }
+        .jakkeKnap2 {
+            width: 30%;
+            height: 30%;
+            position: absolute;
+            float: left;
+            clear: left;
+            margin-left: 34%;
+            margin-top: 35%;
+            z-index: 4;
+            background-color: transparent;
+        }
                 /*Vælg tøj slut*/
 
                 /*Indstillinger*/
