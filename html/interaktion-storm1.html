@@ -10,7 +10,7 @@
 </head>
 
 <header class="topBar">
-    <img class="tilbageKnap" id="btnBack" src="../imgs/tilbage-knap.png" alt="tilbage">
+    <img onclick="gåTilbage()" class="tilbageKnap" id="btnBack" src="../imgs/tilbage-knap.png" alt="tilbage">
         
     <img class="logoTop" src="../imgs/stormlogo.png" alt="logo">
     <a href="indstillinger.html">
@@ -26,11 +26,11 @@
         <source src="../lyd/Rain%20Sounds%20%20%2015%20seconds%20soundtrack.mp3" type="audio/mpeg">
     </audio>
     <audio onloadeddata="var audioPlayer = this; setTimeout(function() { audioPlayer.play(); }, 8000)">
-        <source src="../lyd/krafthelvede%20jeg%20fik%20stress.mp3" type="audio/mpeg">
+        <source src="../lyd/tryk%20paa%20dig%20selv.mp3" type="audio/mpeg">
     </audio>
     
-    <img class="stormFigur" src="../imgs/storm-avatar-fuld.png" alt="hele storm">
-    <form method="get" action="../html/genderselect.html">
+    <img class="stormFigur" src="../imgs/storm-avatar-fuld-regn.png" alt="hele storm">
+    <form method="get" action="../html/select-clothes.html">
         <button class="avatarKnap">
             <img class="avatarFigur" src="../imgs/dreng/Avatar-dreng-transparent.png" alt="hele avatar">
         </button>
@@ -49,7 +49,7 @@
 
 	<div id="drops-section"></div>
     
-    <script src="../javascript/tilbage.js"></script>
+    <script src="../javascript/main.js"></script>
     <script src="../javascript/drop.js"></script>
     <script src="../javascript/rain.js"></script>
 </body>

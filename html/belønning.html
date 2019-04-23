@@ -19,23 +19,18 @@
 </header>
 
 <body>
-   <p><button onclick="myMove()">Click Me</button></p> 
-
-    <div id ="container">
-     
-      <div id ="animate">
-      <img src="../imgs/lightning-305229_960_720.png"></div>
-    </div>
-    
+    <audio onloadeddata="var audioPlayer = this; setTimeout(function() { audioPlayer.play(); }, 1000)" >
+        <source src="../lyd/2%20lyn%20mere.mp3" type="audio/mpeg">
+    </audio>
     <div class="cirkel1">
         <div class="cirkel"><img src="../imgs/lightning-305229_960_720.png"></div>
     </div>
     <div class="wrapper">
-        <div class="cirkelSmaa1"></div>
-        <div class="cirkelSmaa2"></div>
-        <div class="cirkelSmaa1"></div>
+        <div class="cirkelSmaa"></div>
+        <div class="cirkelSmaa"></div>
+        <div class="cirkelSmaa"></div>
     </div>
-    <script src="../javascript/testbel%C3%B8nning.js"></script>
+    <script src="../javascript/main.js"></script>
 </body>
 
 </html>
