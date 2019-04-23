@@ -1,0 +1,294 @@
+html{
+    scroll-behavior: smooth;
+}
+
+*{margin:0; padding:0; font-family:Montserrat;}
+
+section{width:100%; height:1000px; float:left;}
+
+#pageA{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(baggrund.jpg);
+    
+}
+
+#pageA h1{
+    color: white;
+    text-align: center;
+    margin-top: 15%;
+    font-size: 40px;
+        
+}
+
+#pageA img{
+    
+margin-top: 6%;
+margin-left: 5%;
+position: fixed;
+top: 0;
+
+z-index: 10;
+    
+}
+
+#pageB{
+    background-image: url(baggrund.jpg);
+}
+
+#pageB h1{
+    color: white;
+    text-align: center;
+    margin-top: 10%;
+    font-size: 20px;
+        
+}
+
+
+#pageC{
+    background-image: url(baggrund.jpg);
+}
+
+#pageC h1{
+    color: white;
+    text-align: center;
+    margin-top: 10%;
+    font-size: 20px;
+        
+}
+
+
+#pageD{
+    background-image: url(baggrund.jpg);
+}
+
+#pageD h1{
+    color: white;
+    text-align: center;
+    margin-top: 10%;
+    font-size: 20px;
+        
+}
+
+
+#pageE{
+    background-image: url(baggrund.jpg);
+}
+
+#pageE h1{
+    color: white;
+    text-align: center;
+    margin-top: 10%;
+    font-size: 20px;
+        
+}
+
+
+
+#pageF{
+    background-image: url(baggrund.jpg);
+}
+
+#pageF h1{
+    color: white;
+    text-align: center;
+    margin-top: 10%;
+    font-size: 20px;
+        
+}
+
+
+#pageG{
+    background-image: url(baggrund.jpg);
+}
+
+#pageG h1{
+    color: white;
+    text-align: center;
+    margin-top: 10%;
+    font-size: 20px;
+        
+}
+
+
+
+nav{
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 80px;
+    font-size: 20px;
+    display: inline-block;
+
+
+}
+
+ul{
+    width:fit-content; 
+    margin: auto;
+    list-style: none;
+    margin-right: 23%;
+    
+}
+
+ul li{
+    float: left;
+    margin-right: 30px;
+    
+}
+
+ul li a{
+    color: #fff;
+    text-decoration: none;
+}
+
+ul li a:hover{
+    text-decoration: underline;
+}
+
+
+.box{
+    float: left;
+    margin-top: 40px;
+    margin-right: 60px;
+
+    
+}
+
+#white{
+    
+    background-color: #F0F8FF;
+    width: 220px;
+    height: 220px;
+    margin-left: 104px;
+    
+}
+
+#white h1{
+    margin-top: 102%;
+    font-size: 15px;
+}
+
+#fountainblue{
+    
+    background-color: #69A1AC;
+    width: 220px;
+    height: 220px;
+}
+
+#fountainblue h1{
+    margin-top: 102%;
+     font-size: 15px;
+}
+
+#yellow {
+     background-color: #FEE267;
+    width: 220px;
+    height: 220px;
+}
+
+#yellow h1{
+    margin-top: 102%;
+     font-size: 15px;
+}
+
+#cameo{
+     background-color: #D4A181;
+    width: 220px;
+    height: 220px;
+}
+
+#cameo h1{
+    margin-top: 102%;
+     font-size: 15px;
+}
+
+#blue{
+     background-color: #2B44FF;
+    width: 220px;
+    height: 220px;
+    margin-left: 104px;
+}
+
+#blue h1{
+    margin-top: 102%;
+     font-size: 15px;
+}
+
+
+#red {
+     background-color: #F45145;
+    width: 220px;
+    height: 220px;
+}
+
+#red h1{
+    margin-top: 102%;
+     font-size: 15px;
+}
+
+#orange {
+     background-color: #E69A3D;
+    width: 220px;
+    height: 220px;
+}
+
+#orange h1{
+    margin-top: 102%;
+     font-size: 15px;
+}
+
+#midnightblue {
+     background-color: #191847;
+    width: 220px;
+    height: 220px;
+}
+
+#midnightblue h1{
+    margin-top: 102%;
+     font-size: 15px;
+}
+
+.logo img{
+    float:left;
+    margin-top: 80px;
+     width:210px;
+    height: 200px;
+    margin-left: 280px;
+    
+}
+
+
+#pageD h2{
+    font-size: 200px;
+    color: #fff;
+    margin-left: 200px;
+    margin-top: 70px;
+}
+
+#pageD h3{
+    font-size: 50px;
+    color: #fff;
+    margin-left: 50%;
+    margin-top: -95px;
+}
+
+#pageD h4{
+    font-size: 15px;
+    color: #fff;
+    margin-top: 10%;
+    margin-left: 190px;
+}
+
+.billeder img {
+    float:left;
+    margin-top: 80px;
+     width:250px;
+    height: 250px;
+    margin-left: 258px;
+    margin-bottom: 80px;
+}
+
+#billed1 h1{
+    font-size: 10px;
+    margin-top: 150px;
+    
+}
