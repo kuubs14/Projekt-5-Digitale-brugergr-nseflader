@@ -108,6 +108,25 @@ z-index: 10;
         
 }
 
+#pageG h2{
+    color: white;
+    margin-top: 5%;
+    font-size: 20px;
+    
+}
+
+#pageG h3{
+    color: white;
+    margin-top: 5%;
+    font-size: 20px;
+}
+
+#pageG h4{
+    color: white;
+    margin-top: 5%;
+    font-size: 20px;
+}
+
 
 
 nav{
@@ -251,7 +270,7 @@ ul li a:hover{
     float:left;
     margin-top: 80px;
      width:210px;
-    height: 200px;
+    height: 150px;
     margin-left: 280px;
     
 }
@@ -280,15 +299,23 @@ ul li a:hover{
 
 .billeder img {
     float:left;
-    margin-top: 80px;
+    margin-top: 50px;
      width:250px;
     height: 250px;
     margin-left: 258px;
     margin-bottom: 80px;
 }
 
-#billed1 h1{
-    font-size: 10px;
-    margin-top: 150px;
+.knapper img {
+    float:left;
+    margin-top: 50px;
+     width:250px;
+    height: 250px;
+    margin-left: 258px;
+    margin-bottom: 80px;
+}
+
+.sprog {
+     
     
 }
