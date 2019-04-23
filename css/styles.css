@@ -226,6 +226,8 @@ input {
     clear: left;
     margin-left: 7%;
     margin-top: 12%;
+    height: 75px;
+    width: 150px;
 }
 .clothesElementLeft img {
     margin-bottom: 85%;
@@ -237,6 +239,8 @@ input {
     clear: right;
     margin-right: 7%;
     margin-top: 12%;
+    height: 75px;
+    width: 150px;
 }
 .clothesElementRight img {
     margin-bottom: 85%;
