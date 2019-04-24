@@ -3,7 +3,6 @@
 
 
 
-
 let imageList = [];
 imageList[0] = "../imgs/dreng/avatar-dreng-uden-cirkel.png";
 imageList[1] = "../imgs/dreng/avatar-dreng-1.png";
@@ -12,7 +11,6 @@ imageList[3] = "../imgs/dreng/avatar-dreng-3.png";
 imageList[4] = "../imgs/dreng/avatar-dreng-4.png";
 
 let currentIndex = 0;
-let currentImageNumber = currentIndex + 1;
 
 function skiftDrengHøjre() {
     currentIndex++;
@@ -21,7 +19,6 @@ function skiftDrengHøjre() {
         currentIndex = 0;
     }
     
-    let currentImageNumber = currentIndex + 1;
     
     document.getElementById("sliderImage").src = imageList[currentIndex];
 }
@@ -33,7 +30,6 @@ function skiftDrengVenstre() {
         currentIndex = imageList.length - 1;
     }
     
-    let currentImageNumber = currentIndex + 1;
     
     document.getElementById("sliderImage").src = imageList[currentIndex];
 }
