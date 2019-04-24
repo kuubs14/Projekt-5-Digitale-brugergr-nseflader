@@ -23,12 +23,39 @@ section{width:100%; height:1000px; float:left;}
     
 margin-top: 6%;
 margin-left: 5%;
-position: fixed;
 top: 0;
 
 z-index: 10;
     
 }
+
+#logofixed {
+    position: fixed;
+}
+
+.gruppen img{
+    float:left;
+    margin-top: 80px;
+     width:210px;
+    height: 200px;
+    margin-left: 20px;
+    position: none;
+    
+}
+
+#mads {
+
+    padding-left: 60px;
+}
+
+#mads h2{
+    margin-top: 100px;
+    color: #fff;
+    
+    
+}
+
+
 
 #pageB{
     background-image: url(baggrund.jpg);
@@ -81,7 +108,14 @@ z-index: 10;
         
 }
 
-
+#pageE h2{
+    color: white;
+    text-align: center;
+    font-size: 15px;
+    margin-top: 35px;
+    margin-right: 240px;
+    margin-left: 240px;
+}
 
 #pageF{
     background-image: url(baggrund.jpg);
@@ -93,6 +127,15 @@ z-index: 10;
     margin-top: 10%;
     font-size: 20px;
         
+}
+
+#pageF h2{
+    color: white;
+    text-align: center;
+    font-size: 15px;
+    margin-top: 35px;
+    margin-right: 240px;
+    margin-left: 240px;
 }
 
 
@@ -112,20 +155,18 @@ z-index: 10;
     color: white;
     margin-top: 5%;
     font-size: 20px;
+    margin-left: 20%;
     
 }
 
 #pageG h3{
     color: white;
-    margin-top: 5%;
-    font-size: 20px;
+    margin-top: 1%;
+    font-size: 16px;
+    margin-left: 20%;
+    margin-right: 20%;
 }
 
-#pageG h4{
-    color: white;
-    margin-top: 5%;
-    font-size: 20px;
-}
 
 
 
@@ -293,8 +334,8 @@ ul li a:hover{
 #pageD h4{
     font-size: 15px;
     color: #fff;
-    margin-top: 10%;
-    margin-left: 190px;
+    margin-top: 35px;
+    text-align: center;
 }
 
 .billeder img {
@@ -309,13 +350,15 @@ ul li a:hover{
 .knapper img {
     float:left;
     margin-top: 50px;
-     width:250px;
-    height: 250px;
-    margin-left: 258px;
+     width:180px;
+    height: 180px;
+    margin-left: 310px;
     margin-bottom: 80px;
 }
 
 .sprog {
-     
+     width: 100%;
+    top: 80px; 
     
 }
+
